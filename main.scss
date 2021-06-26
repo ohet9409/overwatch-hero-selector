@@ -49,6 +49,7 @@ body {
       }
       // 반복문 처리
       @for $i from 1 through 32 {
+        // .hero
         &:nth-child(#{$i}) .image {
           background-image: url("#{$url}/hero#{$i}.png");
         }
